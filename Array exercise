@@ -1,0 +1,28 @@
+        static void Main(string[] args)
+        {
+
+            int[] premierTableau = { 10, 20, 30, 40, 50 };
+            int[] secondTableau = { 60, 70, 80, 90, 100 };
+            int[] grandTableau = new int[10];
+
+            grandTableau[0] = premierTableau[0];
+            grandTableau[1] = premierTableau[1];
+            grandTableau[2] = premierTableau[2];
+            grandTableau[3] = premierTableau[3];
+            grandTableau[4] = premierTableau[4];
+            grandTableau[5] = secondTableau[0];
+            grandTableau[6] = secondTableau[1];
+            grandTableau[7] = secondTableau[2];
+            grandTableau[8] = secondTableau[3];
+            grandTableau[9] = secondTableau[4];
+
+            Console.WriteLine("Valeur du grand tableau :");
+            Console.WriteLine();
+
+            for (int i = 0; i < grandTableau.Length; i++)
+            {
+
+                Console.WriteLine(grandTableau[i]);   
+            }
+
+        }
